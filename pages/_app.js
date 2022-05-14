@@ -1,15 +1,15 @@
 
-import Layout from '../component/Layout';
-import '../styles/globals.css'
+import Layout from '../components/Layout';
+import '../styles/globals.css';
+import 'tailwindcss/tailwind.css';
 
 function MyApp({ Component, pageProps }) {
-  return 
-  (
+  return (
     <Layout>
 
       <Component {...pageProps} />
     </Layout>
-  )
-}
+  );
+};
 
-export default MyApp
+export default MyApp;
