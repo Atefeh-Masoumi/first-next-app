@@ -9,7 +9,7 @@ export default function Home() {
     </Head>
     <div>
       <h1>Home page</h1>
-      <Link href="/Atefeh"> Products</Link>
+      <Link href="/products"> Products</Link>
       
     </div>
     </>
